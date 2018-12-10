@@ -1,0 +1,68 @@
+<view class='one_title_view'>
+    <image class='logo_icon' src='../imgs/xcx2.png'></image>
+    <view class='wxxcx_title'>
+    <view>你的财富共享纸巾机</view>
+     <view>2018年8月15日 【上线日】</view>
+    </view>
+
+</view>
+  <view>
+    <image class='wxapp_img' src='../imgs/index-01.jpg' mode='widthFix'></image>
+  </view>
+
+  <view class='other_title_view'>
+    共享纸巾机-你的财富系统
+    </view>
+  <view class='title_desc'> 
+      微信小程序参透到了每一个人的生活，正一步一步实现其连接一切的目标，
+      人、信息、物、服务，越来越多的时间花在微信上，逐步减少对其他App的使用。
+  </view>
+   <view>
+    <image class='wxapp_img' mode='widthFix' src='../imgs/gxpaper.jpg'></image>
+  </view>
+
+    <view class='other_title_view'>
+    “再小的个体，也有自己的品牌”
+  </view>
+  <view class='title_desc'> 
+      直达微信十亿用户， 摆脱大平台，自己做品牌
+  </view>
+  <view>
+    <image class='wxapp_img zhanshi' mode='widthFix' src='../imgs/index-02.jpg'></image>
+  </view>
+
+  <view class='other_title_view'>
+    我们的品牌
+  </view>
+  <view class='title_desc'> 
+     你的魔啡电子科技有限公司。专注多年项目互联网推广+实体推广，有多年的市场推广运营经验，包括网络销售(预包装食品、豆制品、日用百货、化妆品)，电子商务平台的开发建设，电子交易平台。
+  </view>
+
+  <view class='bottom_imgs'>
+    <image src='../imgs/wxxcx1.jpg' ></image>
+    <image src='../imgs/wxxcx1.jpg' ></image>
+    <image src='../imgs/wxxcx1.jpg'></image>
+  </view>
+
+  <view class='alzs_view_wrap'>
+      <view class='alzs_title zhanshi'>小程序案例展示</view>
+
+      <view class='zs_list_wrap'>
+        <view  class='list_item'>
+            <view class='list_item_title'>附近的小店</view>
+            <view><image class='xcxcode' bindtap='lookMax' data-url='http://39.104.73.129/imgs/xdcode.jpg' src='http://39.104.73.129/imgs/xdcode.jpg' mode='widthFix'></image></view>
+        </view>
+         <view  class='list_item'>
+           <view  class='list_item_title'>宠物招聘</view>
+            <view><image class='xcxcode' bindtap='lookMax' data-url='http://39.104.73.129/imgs/zpcode.jpg' src='http://39.104.73.129/imgs/zpcode.jpg' mode='widthFix'></image></view>
+        </view>
+        <view  class='list_item'>
+           <view  class='list_item_title'>购一购</view>
+            <view><image class='xcxcode' bindtap='lookMax'  data-url='http://39.104.73.129/imgs/gygcode.jpg' src='http://39.104.73.129/imgs/gygcode.jpg' mode='widthFix'></image></view>
+        </view>
+        <view  class='list_item'>
+           <view  class='list_item_title'>导游</view>
+            <view><image class='xcxcode' bindtap='lookMax' data-url='http://39.104.73.129/imgs/dycode.jpg'  src='http://39.104.73.129/imgs/dycode.jpg' mode='widthFix'></image></view>
+        </view>
+      </view>
+  </view>

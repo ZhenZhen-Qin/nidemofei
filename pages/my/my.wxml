@@ -1,0 +1,64 @@
+<view>
+  <image src='../imgs/gxpaper.jpg' class='xxlogo62'></image>
+</view>
+
+
+<view class='view_wrap box1'>
+    <view class='view_wrap_item first_view' bindtap='closeDetail' data-index='0'>公司简介<image class='view_youjian {{isZk[0]==true?"yj_90":"yj_0"}}' src='../imgs/youjian.png'></image></view>
+    <view class='content_view' wx:if="{{isZk[0]}}">
+      <view class='view_wrap_item view_wrap_item_'>
+       你的财富系统-共享纸巾机：我们拥有一支技术精湛的服务团队，以卓越的服务品质、专业安全的技术服务实力，为不同行业的客户提供更好更优质的产品，我们建立了完善的售后服务体系，为客户全方位终身指导，我们一切以客户需求为中心，希望经过我们的专业服务和不懈努力，重塑企业网络形象，打造出客户满意的产品，为企业产品推广、文化建设传播提供服务指导。
+      </view>
+    </view>
+</view>
+
+<view class='view_wrap box2'>
+    <view class='view_wrap_item first_view' bindtap='closeDetail' data-index='1'>联系方式<image class='view_youjian {{isZk[1]==true?"yj_90":"yj_0"}}' src='../imgs/youjian.png'></image></view>
+    <view class='content_view' wx:if="{{isZk[1]}}">
+      <view class='lxfs_simple_view'>
+          <image class='lxfs_icon' src='../imgs/10.png'></image>
+          <text>电话:</text>
+          <text>0769-82236200</text>
+          <text bindtap='callPhone' data-phone='02089280771' class='oper_text'>拨打</text>
+      </view>
+      <view class='lxfs_simple_view'>
+          <image class='lxfs_icon' src='../imgs/12.png'></image>
+          <text>手机:</text>
+          <text >15322851117</text>
+          <text bindtap='callPhone' data-phone='15920952037'  class='oper_text'>拨打</text>
+      </view>
+      <view class='lxfs_simple_view'>
+          <image class='lxfs_icon' src='../imgs/11.png'></image>
+          <text>微信客服:</text>
+          <text>这里是微信客服号</text>
+           <text  class='oper_text' bindtap='fuZhi' data-val='shequnhk'>复制</text> 
+      </view>
+
+      <view class='lxfs_simple_view'>
+          <image class='lxfs_icon' src='../imgs/9.png'></image>
+          <text>QQ:</text>
+          <text>这里是QQ号</text>
+           <text  class='oper_text' bindtap='fuZhi' data-val='514707608'>复制</text> 
+      </view>
+      <view class='lxfs_simple_view'>
+          <image class='lxfs_icon' src='../imgs/13.png'></image>
+          <text>邮箱:</text>
+          <text>这里是邮箱号</text>
+           <text  class='oper_text' bindtap='fuZhi' data-val='weixin@vipxiaodian.com'>复制</text> 
+      </view>
+    </view>
+</view>
+
+
+<view class='view_wrap map_view_wrap'>
+    <view class='view_wrap_item first_view fense' bindtap='closeDetail' data-index='2'>公司地址<image class='view_youjian {{isZk[2]==true?"yj_90":"yj_0"}}'  src='../imgs/youjian.png'></image></view>
+   <view class='content_view' wx:if="{{isZk[2]}}">
+      <view class='gsdz_title_view'>
+        <view class='gsdz_title_view_text'>广州天河区天河北路高科大厦A座2607</view>
+        <view class='yjdh_text_view'><text class='yjdh_text' bindtap='goNavigate'>一键导航</text></view>
+      </view>
+      <view class='map_view'>
+        <map id="map" class='map_view_map' longitude="113.324520" latitude="23.099994" scale="14" controls="{{controls}}" bindcontroltap="controltap" markers="{{markers}}" bindmarkertap="markertap" polyline="{{polyline}}" bindregionchange="regionchange" show-location></map>
+      </view>
+   </view>
+</view>

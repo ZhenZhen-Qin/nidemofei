@@ -1,0 +1,37 @@
+<view class='map_view'>
+  <map id="map" class='map' longitude="113.324520" latitude="23.099994" scale="14" controls="{{controls}}" bindcontroltap="controltap" markers="{{markers}}" bindmarkertap="markertap" polyline="{{polyline}}" bindregionchange="regionchange" show-location></map>
+</view>
+
+<swiper class='shop_swiper' bindchange="bindSwiperChange" current="{{currentSwiperItem}}">
+    <swiper-item class="swiper_item" wx:for="{{list}}" wx:key="unique">
+       <view class='si_left'>
+          <image src='{{item.headImg}}'></image>
+       </view>
+      <view class='si_right'>
+        <view class='si_right_top'>
+            <view class='si_right_title'>{{item.shopName}}</view>
+            <view class='si_right_distance'>1.1km</view>
+        </view>
+        <view class='si_right_middle'>
+            <view class='si_right_middle_left'>
+                <image class='pinfen_icon' src='../imgs/sy2.png'></image>
+                <image class='pinfen_icon' src='../imgs/sy2.png'></image>
+                <image class='pinfen_icon' src='../imgs/sy2.png'></image>
+            </view>
+            <view class='si_right_middle_right'>
+              <text class='pinglun_count'> {{item.comment}}条评论</text>
+            </view>
+
+            <view class="miaoshu">
+                <text>{{item.summary}}</text>
+            </view>
+        </view>
+      </view>
+        <!-- 功能选项 -->
+        <view class='item_wrap'>
+            <view class='ri_item ri_item_xq'>详情</view>
+            <view class='ri_item ri_item_dh'>导航</view>
+        </view>
+    </swiper-item>
+</swiper>
+

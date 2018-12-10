@@ -1,0 +1,67 @@
+<swiper indicator-dots="true" autoplay>
+  <block wx:for="{{imgUrls}}" wx:key="unique">
+    <swiper-item>
+      <image src="{{item}}" class="slide-image" width="355" height="150"/>
+    </swiper-item>
+  </block>
+</swiper>
+<view class='pinpai'>你的财富系统-共享纸巾机</view>
+
+<view class='pinpai_jieshao'>
+  <view> 免费领取 共享财富</view>
+  <view> 扫一扫二维码 每天免费领取 </view> 
+  <view>
+    只要你需要 总有一台共享纸巾机就在你的身边
+  </view>
+</view>
+
+<view>
+    <image class='xc_img' mode='widthFix' src='../imgs/gxpaper.jpg'></image>
+</view>
+
+<view class='simple_icon_wrap_view'>
+  <view class='simple_icon_title'>产品简介</view>
+  <view class='simple_icon_view'>
+    <view><image class='simple_icon_icon_' src='../imgs/5.png'></image></view>
+    <view>公司介绍</view>
+  </view>
+  <view class='simple_icon_view'>
+    <view><image class='simple_icon_icon_' src='../imgs/6.png'></image></view>
+    <view>产品介绍</view>
+  </view>
+  <view class='simple_icon_view'>
+    <view><image class='simple_icon_icon_' src='../imgs/7.png'></image></view>
+    <view>技术支持</view>
+  </view>
+  <view class='simple_icon_view'>
+    <view><image class='simple_icon_icon_' src='../imgs/8.png'></image></view>
+    <view>资源支持</view>
+  </view>
+  </view>
+<!-- 
+<view class='simple_icon_wrap_view'>
+  <view class='simple_icon_view'>
+    <view><image class='simple_icon_icon' src='../imgs/1.png'></image></view>
+    <view class='simple_icon_text'>朋友圈广告</view>
+  </view>
+  <view class='simple_icon_view'>
+    <view><image class='simple_icon_icon'  src='../imgs/2.png'></image></view>
+    <view class='simple_icon_text'>精准定向</view>
+  </view>
+    <view class='simple_icon_view'>
+    <view><image class='simple_icon_icon'  src='../imgs/3.png'></image></view>
+    <view class='simple_icon_text'>微信小程序</view>
+  </view>
+  <view class='simple_icon_view'>
+    <view><image class='simple_icon_icon'  src='../imgs/4.png'></image></view>
+    <view class='simple_icon_text'>定制开发</view>
+  </view>
+</view> -->
+
+<view>
+    <view class='zsjm_view'>共享纸巾机</view>
+    <view class='zs_text_view'>
+     从共享单车到共享汽车，从共享充电宝到共享雨伞等，如今，在很多城市的大街小巷又出现了共享纸巾机，用户只需扫码关注相关公众号就可以免费领取纸巾了。
+    </view>
+</view>
+

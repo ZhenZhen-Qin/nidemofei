@@ -1,0 +1,45 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/adv/adv",
+    "pages/wxapp/wxapp",
+    "pages/my/my",
+    "pages/test/test"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarTitleText": "共享纸巾机-你的财富系统",
+    "navigationBarBackgroundColor": "#FFFFFF",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "selectedColor": "#e1868b",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "pages/imgs/sy2.png",
+        "selectedIconPath": "pages/imgs/sy1.png"
+      },
+      {
+        "pagePath": "pages/adv/adv",
+        "text": "广告投放",
+        "iconPath": "pages/imgs/gg1.png",
+        "selectedIconPath": "pages/imgs/gg2.png"
+      },
+      {
+        "pagePath": "pages/wxapp/wxapp",
+        "text": "关于我们",
+        "iconPath": "pages/imgs/xcx1.png",
+        "selectedIconPath": "pages/imgs/xcx2.png"
+      },
+      {
+        "pagePath": "pages/my/my",
+        "text": "联系我们",
+        "iconPath": "pages/imgs/lx2.png",
+        "selectedIconPath": "pages/imgs/lx1.png"
+      }
+    ]
+  }
+}

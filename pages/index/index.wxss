@@ -1,0 +1,75 @@
+.slide-image{
+  width: 100%;
+  height: 150px;
+}
+.pinpai{
+  text-align: center;
+  margin: 15px 0;
+  /* color: #666666; */
+  font-size: 22px;
+}
+.pinpai_jieshao{
+  color: #999999;
+  padding: 0 2%;
+  width: 96%;
+  line-height: 25px;
+}
+.pinpai_jieshao>view{
+  font-size: 18px;
+  text-align: center;
+}
+.xc_img{
+  width: 96%;
+  margin: 20px auto;
+  display: block;
+  
+}
+
+.simple_icon_icon{
+  /* background: red; */
+  width: 50px;height: 50px;
+  border-radius: 50%;
+}
+.simple_icon_icon_{
+    width: 30px;height: 30px;
+  border-radius: 50%;
+}
+.simple_icon_wrap_view{
+  width: 94%;
+   margin: 0 auto;
+  border: 1px solid #e6e6e6;
+  box-shadow: 2px 2px 5px #e6e6e6;
+   padding: 15px 0;
+   margin-bottom: 20px;
+   border-radius: 5px;
+}
+.simple_icon_view{
+  width: 25%;display: inline-block;vertical-align: top;
+  text-align: center;
+}
+.simple_icon_text{
+  font-size: 15px;
+}
+
+.zsjm_view{
+  font-size: 20px;letter-spacing:2px;
+  text-align: center;
+}
+.zs_text_view{
+  font-size: 16px;
+  color: #999999;
+  width: 96%;
+  margin: 15px auto;
+}
+.simple_icon_title{
+  font-size: 14px;
+  text-align: center;
+  margin-bottom: 15px;
+}
+.jszc_view{
+  text-align: center;
+  color: #FFFFFF;
+  background: 	#7B7B7B;
+  font-size: 12px;
+  padding: 3px 0;
+}

@@ -1,0 +1,99 @@
+<view>
+  <view class='wmst_view'>纸巾</view>
+  <view class='title_view'>是我们生活中必不可少的生活用品</view>
+  <view class='line_view'></view>
+  <view class='shuo_ming_view'>今天，为大家全面介绍，你的财富共享纸巾机，解决出门忘带纸巾烦恼</view>
+  <view class='img_view'><image src='../imgs/index-02.jpg'  mode='widthFix'></image></view>
+</view>
+
+<view>
+  <view class='title_view'>你的财富共享纸巾机是什么东西？</view>
+  <view class='line_view'></view>
+  <view class='shuo_ming_view'>公益纸巾机是一款服务大众的机器，大家打开微信扫一扫，关注一个公众号，就会掉落一包纸巾，取走即可，不需要收任何费用，每天一包扫码即可。简单说就是免费送纸！轻松解决出门忘带纸的烦恼！</view>
+  <view class='img_view'><image src='../imgs/gxpaper.jpg'  mode='widthFix'></image></view>
+</view>
+
+<view>
+  <view class='title_view'>如何盈利？</view>
+  <view class='line_view'></view>
+  <view class='shuo_ming_view'>丰富的广告形第一种粉丝：
+比如: 需要指定的男粉丝或者女粉丝，或者指定区域的粉丝关注，那么这种价格就比较贵，一般一个粉丝关注度需要按照合约给妙赞公司支付1.5元左右一个关注度，那么公司会分配0.6左右的利润给咱们。  
+
+第二种粉丝：
+
+比如：做全国加盟生意的，只要是粉丝微信关注，全国任意一个都可以，那么买这种粉丝就比较便宜了一般支付给公司0.8元左右一个关注度。 那么咱们送出去一包公司会分给咱们0.3元左右。态，满足日益精细的投放需求</view>
+  <view class='img_view'><image src='../imgs/ADV.bmp' mode='withdFix'></image></view>
+</view>
+<view>
+  <view class='title_view'>在如今粉丝，流量为王的时代</view>
+  <view class='line_view'></view>
+  <view class='shuo_ming_view'> 每个企业都有广告需求，以前企业主们都是靠电视台、机场、地铁、路口等地打广告，这些渠道广告费用巨大，如果企业想再投放一个新的内容，又得重新花钱。 现在，低头族越来越多，大家不再关注身边环境上的广告。企业主们想把广告放在手机上，开设微信公众号，通过粉丝关注度精准广告，成本低效果好，但是吸引粉丝岂是一件容易之事？公益纸巾机正是发现企业家这一需求而产生的。</view>
+  <view class='img_view'><image src='../imgs/index-01.jpg' mode='withdFix'></image></view>
+</view>
+
+<view>
+    <view class='title_view'>大数据支持，精准投放</view>
+    <view class='line_view'></view>
+    <view class='bottom_simple_item_wrap'>
+        <view class='bs_item_left'><image src='../imgs/dlwz.png'></image></view>
+        <view class='bs_item_right'>
+          <view class='bs_item_title'>地理位置</view>
+          <view class='bs_item_desc'>
+              可以安装在小区，便利店，各类餐厅，商城，超市，地铁口，高铁，银行，学校，食堂，宿舍，各大办公楼……
+          </view>
+        </view>
+    </view>
+
+    <view class='bottom_simple_item_wrap'>
+        <view class='bs_item_left'><image src='../imgs/jbxx.png'></image></view>
+        <view class='bs_item_right'>
+          <view class='bs_item_title'>基本信息</view>
+          <view class='bs_item_desc'>
+              公益纸巾机是一款服务大众的机器，大家打开微信扫一扫，关注一个公众号，就会掉落一包纸巾，取走即可，不需要收任何费用
+          </view>
+        </view>
+    </view>
+    <view class='bottom_simple_item_wrap'>
+        <view class='bs_item_left'><image src='../imgs/yhxw.png'></image></view>
+        <view class='bs_item_right'>
+          <view class='bs_item_title'>用户行为</view>
+          <view class='bs_item_desc'>
+            快来免费领取你的共享纸巾吧
+          </view>
+        </view>
+    </view>
+    <view class='bottom_simple_item_wrap'>
+        <view class='bs_item_left'><image src='../imgs/xfnl.png'></image></view>
+        <view class='bs_item_right'>
+          <view class='bs_item_title'>消费方式</view>
+          <view class='bs_item_desc'>
+            一个微信号，一天只能免费领走一包纸巾，第二天，才可以来领走第二包纸巾。
+          </view>
+        </view>
+    </view>
+       
+        <!-- <view class='bottom_simple_item_wrap'>
+        <view class='bs_item_left'><image src='../imgs/yddx.png'></image></view>
+        <view class='bs_item_right'>
+          <view class='bs_item_title'>移动定向</view>
+          <view class='bs_item_desc'>
+            根据设备价格、操作方式（IOS、Aandroid）、互联方式（WIFI、3G、4G）、运营商等定向
+          </view>
+        </view>
+    </view> -->
+
+    <view class='bottom_simple_item_wrap'>
+        <view class='bs_item_left'><image src='../imgs/zdyyh.png'></image></view>
+        <view class='bs_item_right'>
+          <view class='bs_item_title'>更多内容</view>
+          <view class='bs_item_desc'>
+            扫码获得纸巾的同时还会得到相应的纸巾币，
+
+          购买纸巾机后还可以获得免费入驻商城资格，
+
+甚至还可以免费申请机器
+          </view>
+        </view>
+    </view>
+</view>
+
